@@ -7,7 +7,7 @@ find_package(glfw3 REQUIRED)
 find_package(glm REQUIRED)
 
 
-add_executable(Krubic main.c glad.c)
+add_executable(Krubic main.c glad.c shaders.c)
 
 include_directories(${OPENGL_INCLUDE_DIRS})
 

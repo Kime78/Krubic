@@ -5,3 +5,4 @@ glad.h
 khrplatform.h 
 Krubic
 cmake_install.cmake 
+Makefile

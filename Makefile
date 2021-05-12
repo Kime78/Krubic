@@ -177,6 +177,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Krubic.dir/build.make CMakeFiles/Krubic.dir/main.c.s
 .PHONY : main.c.s
 
+shaders.o: shaders.c.o
+.PHONY : shaders.o
+
+# target to build an object file
+shaders.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Krubic.dir/build.make CMakeFiles/Krubic.dir/shaders.c.o
+.PHONY : shaders.c.o
+
+shaders.i: shaders.c.i
+.PHONY : shaders.i
+
+# target to preprocess a source file
+shaders.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Krubic.dir/build.make CMakeFiles/Krubic.dir/shaders.c.i
+.PHONY : shaders.c.i
+
+shaders.s: shaders.c.s
+.PHONY : shaders.s
+
+# target to generate assembly for a file
+shaders.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Krubic.dir/build.make CMakeFiles/Krubic.dir/shaders.c.s
+.PHONY : shaders.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... shaders.o"
+	@echo "... shaders.i"
+	@echo "... shaders.s"
 .PHONY : help
 
 
